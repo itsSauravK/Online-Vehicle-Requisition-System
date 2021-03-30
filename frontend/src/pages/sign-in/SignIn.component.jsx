@@ -11,7 +11,7 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import useStyles from './SiginIn.styles';
+import useStyles from './SignIn.styles';
 import { loginUser } from '../../redux/user/user.actions';
 
 function Copyright() {
