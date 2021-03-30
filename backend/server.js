@@ -2,6 +2,10 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db.config');
+const {
+  routeNotFound,
+  errorHandler,
+} = require('./middleware/error.middleware');
 
 // Load environment variables
 dotenv.config();
@@ -11,6 +15,14 @@ connectDB();
 
 // Setup server
 const app = express();
+app.use(express.json());
+
+// Mount routers
+app.use('/api/users', require('./routes/user.routes'));
+
+// Error middlewares
+app.use(routeNotFound);
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
