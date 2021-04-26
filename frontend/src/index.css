@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MuiToggleButton-root {
+  border: 1px solid grey !important;
+  color: black !important;
+  text-transform: none !important;
+  margin: 5px !important;
+  padding: 5px 10px !important;
+}
+
+.MuiToggleButton-root.Mui-selected {
+  background: #c7821c !important;
+  color: white !important;
+}
+
+.MuiToggleButtonGroup-root {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}

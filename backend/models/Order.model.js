@@ -19,13 +19,17 @@ const orderSchema = new mongoose.Schema(
       color: {
         type: String,
         required: true,
-        enum: ['black', 'white'],
+        enum: ['black', 'white', 'red', 'blue'],
       },
       engine: {
         type: String,
         required: true,
       },
       tires: {
+        type: String,
+        required: true,
+      },
+      fuel: {
         type: String,
         required: true,
       },
@@ -76,32 +80,6 @@ const orderSchema = new mongoose.Schema(
         required: [true, 'Please provide your phone number'],
       },
     },
-    billingDetails: {
-      addressLine1: {
-        type: String,
-        required: [true, 'Please provide billing address line 1'],
-      },
-      addressLine2: {
-        type: String,
-        required: [true, 'Please provide billing address line 2'],
-      },
-      city: {
-        type: String,
-        required: [true, 'Please provide the billing city'],
-      },
-      state: {
-        type: String,
-        required: [true, 'Please provide the billing state'],
-      },
-      pincode: {
-        type: Number,
-        required: [true, 'Please provide the billing pincode'],
-      },
-      phoneNumber: {
-        type: Number,
-        required: [true, 'Please provide your phone number'],
-      },
-    },
     isPaid: {
       type: Boolean,
       default: false,
@@ -122,10 +100,6 @@ const orderSchema = new mongoose.Schema(
     },
     reviewPassed: {
       type: Boolean,
-    },
-    reviewedBy: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
     },
     razorpayOrderId: {
       type: String,

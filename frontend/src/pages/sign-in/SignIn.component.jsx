@@ -11,14 +11,14 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import useStyles from './SignIn.styles';
+import useStyles from './SiginIn.styles';
 import { loginUser } from '../../redux/user/user.actions';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
+      <Link color="inherit" href="https://material-ui.com/" to="/">
         Your Website
       </Link>{' '}
       {new Date().getFullYear()}
@@ -98,7 +98,7 @@ export default function SignIn({ history }) {
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link to="/forgot-password" variant="body2">
                   Forgot password?
                 </Link>
               </Grid>

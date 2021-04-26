@@ -8,18 +8,13 @@ const userFromStorage = localStorage.getItem('userInfo')
   ? JSON.parse(localStorage.getItem('userInfo'))
   : null;
 
-// const billingAddressFromStorage = localStorage.getItem('billingAddress')
-//   ? JSON.parse(localStorage.getItem('billingAddress'))
-//   : {};
-
-// const shippingAddressFromStorage = localStorage.getItem('shippingAddress')
-//   ? JSON.parse(localStorage.getItem('shippingAddress'))
-//   : {};
+const shippingAddressFromStorage = localStorage.getItem('shippingAddress')
+  ? JSON.parse(localStorage.getItem('shippingAddress'))
+  : {};
 
 const initialState = {
   userLogin: { user: userFromStorage },
-  //   billingAddress: billingAddressFromStorage,
-  //   shippingAddress: shippingAddressFromStorage,
+  shippingAddress: shippingAddressFromStorage,
 };
 
 const middleware = [thunk];

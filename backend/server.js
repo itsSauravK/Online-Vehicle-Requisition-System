@@ -19,6 +19,19 @@ app.use(express.json());
 
 // Mount routers
 app.use('/api/users', require('./routes/user.routes'));
+app.use('/api/orders', require('./routes/order.routes'));
+
+// Documents upload
+const upload = require('./middleware/upload.middleware');
+const asyncHandler = require('express-async-handler');
+
+app.post(
+  '/api/upload',
+  upload.single('document'),
+  asyncHandler((req, res) => {
+    res.json({ file: req.file.path });
+  })
+);
 
 // Error middlewares
 app.use(routeNotFound);
