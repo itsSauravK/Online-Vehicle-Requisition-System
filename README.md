@@ -38,4 +38,27 @@ Our problem statement is to develop an online vehicle requisition web applicatio
 ### Create new password
 ![Create new Password](https://user-images.githubusercontent.com/47532084/150310899-12a6393f-63f6-4531-8344-6262f28e0afa.png)
 
+### Customize Car
+![Customize car](https://user-images.githubusercontent.com/47532084/150311608-634fd54a-52e3-4892-bae1-8263ff3e21e7.png)
+
+### Upload and preview user verification documents
+![uploading documents](https://user-images.githubusercontent.com/47532084/150311931-276ba344-4420-4718-a4c4-280b337e0c39.png)
+
+> Uploaded document is just for demo purpose 
+
+### Shipping address
+![Enter shipping address](https://user-images.githubusercontent.com/47532084/150312094-ca8d6818-2e23-43e6-89f9-f9d930305ca8.png)
+
+### Order Placed
+<img width="1421" alt="Screen Shot 2022-01-20 at 3 04 19 PM" src="https://user-images.githubusercontent.com/47532084/150312476-a5bddb88-54e8-47e2-904b-4c09e81da7d1.png">
+
+### User order
+![user order](https://user-images.githubusercontent.com/47532084/150312923-4bf7d803-e8a0-4dcb-ac16-ff2415576c59.png)
+
+### User-dashboard
+![user dashboard](https://user-images.githubusercontent.com/47532084/150313140-88017916-b01f-448a-a970-8bb6c7aac2eb.png)
+
+
+
+
 Demonstration - https://drive.google.com/file/d/1da6cS6i7Z8opecotC79xFDzb3NXfUIdD/view?usp=sharing
