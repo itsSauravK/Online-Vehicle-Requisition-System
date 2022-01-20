@@ -52,6 +52,33 @@ Our problem statement is to develop an online vehicle requisition web applicatio
 ### Order Placed
 <img width="1421" alt="Screen Shot 2022-01-20 at 3 04 19 PM" src="https://user-images.githubusercontent.com/47532084/150312476-a5bddb88-54e8-47e2-904b-4c09e81da7d1.png">
 
+### Admin user panel 
+![Admin - user panel](https://user-images.githubusercontent.com/47532084/150313627-d5c582f6-b2c4-425f-99ff-ea1915e0c9d8.png)
+
+### Admin user edit
+![Admin user-edit](https://user-images.githubusercontent.com/47532084/150313870-b9f62138-b9cc-41e5-b3be-21a978e1051a.png)
+
+### Admin order panel 
+![admin - order panel](https://user-images.githubusercontent.com/47532084/150314406-c3e97574-6775-4070-9d64-a95b17f1aef9.png)
+
+### Admin specific order page 
+![Admin - specific order page](https://user-images.githubusercontent.com/47532084/150314623-2831db1c-987a-4432-80b3-f52f12b506aa.png)
+
+### User- after order has been accepted
+![user- after order has been accepted](https://user-images.githubusercontent.com/47532084/150314862-7493f990-42af-4bae-9bde-290f9efea5d7.png)
+
+### Making payment through RazorPay
+![Payment1](https://user-images.githubusercontent.com/47532084/150315266-6549678f-8212-46b7-a855-9581b3ee9fa5.png)
+
+### Payment Confirmation
+![Payment confimatoin](https://user-images.githubusercontent.com/47532084/150315520-e859c0f6-7c55-4d15-b98d-238d5ee000c8.png)
+
+### Admin - new order panel page after payment
+![admin- order page2](https://user-images.githubusercontent.com/47532084/150315883-d49b632f-26e4-4796-98ac-00cd3defc808.png)
+
+### Admin - dispatching the order
+![Admin- Dispatching the order](https://user-images.githubusercontent.com/47532084/150316124-44127f00-4108-4384-9490-7dbf699953de.png)
+
 ### User order
 ![user order](https://user-images.githubusercontent.com/47532084/150312923-4bf7d803-e8a0-4dcb-ac16-ff2415576c59.png)
 
@@ -61,4 +88,3 @@ Our problem statement is to develop an online vehicle requisition web applicatio
 
 
 
-Demonstration - https://drive.google.com/file/d/1da6cS6i7Z8opecotC79xFDzb3NXfUIdD/view?usp=sharing
