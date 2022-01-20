@@ -52,6 +52,12 @@ Our problem statement is to develop an online vehicle requisition web applicatio
 ### Order Placed
 <img width="1421" alt="Screen Shot 2022-01-20 at 3 04 19 PM" src="https://user-images.githubusercontent.com/47532084/150312476-a5bddb88-54e8-47e2-904b-4c09e81da7d1.png">
 
+### User order
+![user order](https://user-images.githubusercontent.com/47532084/150312923-4bf7d803-e8a0-4dcb-ac16-ff2415576c59.png)
+
+### User-dashboard
+![user dashboard](https://user-images.githubusercontent.com/47532084/150313140-88017916-b01f-448a-a970-8bb6c7aac2eb.png)
+
 ### Admin user panel 
 ![Admin - user panel](https://user-images.githubusercontent.com/47532084/150313627-d5c582f6-b2c4-425f-99ff-ea1915e0c9d8.png)
 
@@ -79,11 +85,7 @@ Our problem statement is to develop an online vehicle requisition web applicatio
 ### Admin - dispatching the order
 ![Admin- Dispatching the order](https://user-images.githubusercontent.com/47532084/150316124-44127f00-4108-4384-9490-7dbf699953de.png)
 
-### User order
-![user order](https://user-images.githubusercontent.com/47532084/150312923-4bf7d803-e8a0-4dcb-ac16-ff2415576c59.png)
 
-### User-dashboard
-![user dashboard](https://user-images.githubusercontent.com/47532084/150313140-88017916-b01f-448a-a970-8bb6c7aac2eb.png)
 
 
 
