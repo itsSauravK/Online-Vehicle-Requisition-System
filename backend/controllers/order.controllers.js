@@ -243,7 +243,7 @@ const dispatchOrder = asyncHandler(async (req, res) => {
   try {
     sendEmail({
       toEmail: populatedOrder.user.email,
-      subject: 'PCB Cupid - Your order has been dispatched',
+      subject: 'Sharma Cars - Your order has been dispatched',
       text: `You car has been shipped. Logistics Partner: ${logisticsPartner} -> ${trackingId}`,
     });
   } catch (error) {
